@@ -1,0 +1,46 @@
+body{
+    font-size: 20px;
+    font-family:"Fascinate", "Potta One", cursive;
+    margin: 0;
+    padding: 0;
+    background: url(../imagens/pngwing.com.png) no-repeat left top;
+    background-size: 20em;
+}
+
+main{
+    margin-top: 12em;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 100%;
+}
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    background: rgb(252, 225, 188)  url(../imagens/banner-header_doram.jpg) no-repeat;
+    float: left;
+}
+
+ul li {
+   float: left;
+
+}
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 0 2em;
+    text-decoration: none;
+    color: rgb(27, 9, 230);
+    border-left: 1px groove blue;
+}
+ul .primeiro a{
+    border-left: none;
+}
+
+ul a:hover{
+    color: antiquewhite;
+    background: rgb(27, 9, 230) ;
+}
